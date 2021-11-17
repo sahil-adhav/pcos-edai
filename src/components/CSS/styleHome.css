@@ -1,31 +1,32 @@
-.frontPage{
-    background-image: url("C:\Users\Aditya Sood\Desktop\pcos-edai\pcos-app\src\components\images\pcosImg.jpg");
-    background-size: cover;
-    
-}
 #navi{
-    background-color: rgb(245, 110, 110);
+    background-color: rgb(254,149,164);
+;
     padding-left: 2%;
 }
 
 #contactbtn{
-  margin-left: 1150px;
+  margin-left: 1550px;
 }
 
 #loginbtn{
     margin: 1%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 3% 5%;
+    transition-duration: 0.4s;
+    font-size: 30px;
+}
+#loginbtn:hover {
+  background-color: rgb(254,149,164);
+  color: white;
 }
 
 #title{
-  background-color: rgb(243, 131, 131);
+  background-color: #ffdac0;
+;
   padding-bottom: 5%;
 }
 #title1{
-  background-color: rgb(243, 131, 131);
+  background-color: #ffdac0;
+;
   padding-bottom: 5%;
 }
 
@@ -33,7 +34,7 @@
   font-family: Montserrat-black;
   font-size: 3rem;
   line-height: 1.5;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .container-fluid{
@@ -43,7 +44,7 @@
 #testimonials{
   padding: 7% 15%;
   text-align: center;
-  background-color: rgb(250, 168, 168);
+  background-color: rgb(254,149,164);
   color: white;
 
 }
@@ -66,6 +67,6 @@
 }
 
 #foot{
-     background-color: rgb(250, 168, 168);
+     background-color: rgb(254,149,164);
 }
 

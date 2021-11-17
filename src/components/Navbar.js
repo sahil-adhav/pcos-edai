@@ -3,10 +3,10 @@ import React from 'react'
 export default function Navbar() {
     return (
         <div id="navi">
-           <nav className="navbar navbar-expand-lg navbar-dark">
+           <nav className="navbar navbar-expand-lg navbar-light">
 
         <a className="navbar-brand" href="">
-          PCOS Companion
+         <strong>PCOS Companion</strong> 
         </a>
 
         <div>

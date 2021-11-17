@@ -1,11 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import styleHome from './CSS/styleHome.css'
-import pcosImg from './images/pcosImg.jpg'
-import developer from './images/developer.png'
-import cosmetic from './images/cosmetic.png'
-import overview from './images/overview.png'
-import irregular from './images/irregular.png'
+
 import girl from './images/girl.png'
 
 
@@ -26,10 +22,10 @@ export default function Homepage() {
         </div>
 
         <div className="row">
-            <button id="loginbtn" type="button" className="btn btn-lg btn-outline-light">Login</button>
-          <button id="loginbtn" type="button" className="btn btn-lg btn-outline-light">About PCOS</button>
-          <button id="loginbtn" type="button" className="btn btn-lg btn-outline-light">Blog</button>
-          <button id="loginbtn" type="button" className="btn btn-lg btn-outline-light">Diet</button>
+            <button id="loginbtn" type="button" className="btn btn-lg btn-outline-dark">Login</button>
+          <button id="loginbtn" type="button" className="btn btn-lg btn-outline-dark">About PCOS</button>
+          <button id="loginbtn" type="button" className="btn btn-lg btn-outline-dark">Blog</button>
+          <button id="loginbtn" type="button" className="btn btn-lg btn-outline-dark">Diet</button>
         </div>
 
           </div>
@@ -108,7 +104,7 @@ export default function Homepage() {
         
 
         <div className="row">
-            <button id="loginbtn" type="button" className="btn btn-lg btn-outline-light">Join a Campign!</button>
+            <button id="loginbtn" type="button" className="btn btn-lg btn-outline-dark">Join a Campaign!</button>
           
         </div>
 
@@ -125,7 +121,7 @@ export default function Homepage() {
       <div className="container py-4">
           <div className="row gy-4 gx-5">
               <div className="col-lg-4 col-md-6">
-                  <h5 className="h1 text-white">PCOS  COMPANION</h5>
+                  <h5 className="h1 text-white">PCOS <br/> COMPANION</h5>
                   <p className="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                   <p className="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a  className="link footer-heading" className="text-primary" href="#">Pcoscompanion.com</a></p>
               </div>

@@ -1,10 +1,10 @@
 import React from 'react'
-// import styleBlog from './CSS/styleBlog.css'
+import styleBlog from './CSS/styleBlog.css'
 
 export default function Blog() {
     return (
         <div>
-            <nav className="navbar">
+            {/* <nav className="navbar">
       
       <div className="logo">
         PCOS <br/>
@@ -25,7 +25,7 @@ export default function Blog() {
           <li><button className="btn__logout" type="submit">LOGOUT</button></li>
         </div>
       </ul>
-    </nav>
+    </nav> */}
     <header>
       <h1 className="heading__blogs">Blogs</h1>
       <h3 className="heading__blogs__tagline">Share and Read stories of others.</h3>
@@ -100,7 +100,7 @@ export default function Blog() {
         </div>
       </section>
     </main>
-    <footer className="w-100 py-4 flex-shrink-0">
+    {/* <footer className="w-100 py-4 flex-shrink-0">
       <div className="container py-4">
           <div className="row gy-4 gx-5">
               <div className="col-lg-4 col-md-6">
@@ -140,7 +140,7 @@ export default function Blog() {
               </div>
           </div>
       </div>
-  </footer>
+  </footer> */}
         </div>
     )
 }

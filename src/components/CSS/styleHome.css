@@ -1,8 +1,4 @@
-#navi{
-    background-color: rgb(254,149,164);
-;
-    padding-left: 2%;
-}
+
 
 #contactbtn{
   margin-left: 1550px;
@@ -20,12 +16,12 @@
 }
 
 #title{
-  background-color: #ffdac0;
+  background-color: #ffecdf;
 ;
   padding-bottom: 5%;
 }
 #title1{
-  background-color: #ffdac0;
+  background-color: #ffecdf;
 ;
   padding-bottom: 5%;
 }
@@ -35,6 +31,7 @@
   font-size: 3rem;
   line-height: 1.5;
   color: rgb(0, 0, 0);
+  
 }
 
 .container-fluid{
@@ -44,10 +41,15 @@
 #testimonials{
   padding: 7% 15%;
   text-align: center;
-  background-color: rgb(254,149,164);
-  color: white;
+  background-color: #ffecdf;
+  color:black;
 
 }
+
+/* .answer{
+
+} */
+
 
 .link{
     text-decoration: none;
@@ -55,7 +57,7 @@
 }
 
 .footer-link > a:hover{
-    color: rgb(255, 255, 255);
+    color: #ffecdf;
 }
 
 .footer-heading{

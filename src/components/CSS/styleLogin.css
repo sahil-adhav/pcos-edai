@@ -1,0 +1,74 @@
+.main-form{
+  
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.27 );
+backdrop-filter: blur( 10px );
+-webkit-backdrop-filter: blur( 8px );
+border-radius: 20px;
+  display: flex;
+  flex-direction:column;
+  padding:3em;
+  justify-content:center;
+   position: absolute; /* or absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  
+}
+button:hover{
+  color:#fff; 
+}
+button:active{
+  transform:translatey(1.5px);
+}
+button{
+  transition: all 100ms;
+  text-align:center;
+  padding:14px 20px 14px 20px;
+  border-radius: 6px;
+  border: none;
+  margin-top:10px;
+  outline: none;
+  font-size: 24px;
+  background: pink;
+box-shadow: white;
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold
+}
+
+.inp
+{transition: all 100ms;
+    font-family: 'Open Sans', sans-serif;
+  font-weight:600;
+  height: 45px;
+  margin:20px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+backdrop-filter: blur( 4px );
+  padding-left: 20px;
+}
+
+body{
+ /* background-image: url("https://media.istockphoto.com/photos/pink-stethoscope-and-pink-breast-cancer-awareness-ribbon-on-pink-picture-id1273931100?b=1&k=20&m=1273931100&s=170667a&w=0&h=KJIYADmrQs8mMWi4yLSyiLQrYQIjwFHla2KuuQRWwhA="); */
+  background-color: #F0E9D2;
+
+  background-size: cover;
+
+}
+
+@media only screen and (max-width: 670px) {
+  body {
+    background-color: #F1E1EF;
+     background-size: auto;
+  }
+}
+@media only screen and (orientation:portrait){
+  .main-form{
+    margin:auto;
+    padding: 1.5em;
+  }
+}

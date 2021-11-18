@@ -2,24 +2,29 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <div id="navi">
-           <nav className="navbar navbar-expand-lg navbar-light">
-
-        <a className="navbar-brand" href="">
-         <strong>PCOS Companion</strong> 
-        </a>
-
         <div>
-          
-          <button id="contactbtn" type="button" className="btn btn-lg btn-outline-light">Contact us</button>
-        </div>
-
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
+           <nav className="navbar">
+      
+      <div className="logo">
+        PCOS <br/>
+        COMPANION
+      </div>
+      
+      <ul className="nav-links">
         
-      </nav>
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" className="hamburger">&#9776;</label>
+        
+        <div className="menu">
+          <li><a href="/">HOME</a></li>
+          <li><a href="/about">ABOUT</a></li>
+          <li><a href="/blog">BLOG</a></li>
+          <li><a href="/diet">DIET</a></li>
+          <li><a href="/tracker">TRACKER</a></li>
+          <li><button className="btn__logout" type="submit">LOGOUT</button></li>
+        </div>
+      </ul>
+    </nav>
 
 
         </div>

@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffecdf;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+body {
+    font-family: cursive;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffecdf;
+    color: #878e9b;
+}
+
+.nav-links {
+    background-color: #ffecdf;
+}
+
+.nav-links a {
+    color: #878e9b;
+
+}
+
+
+/* LOGO */
+.logo {
+    font-size: 1.2rem;
+    margin-left: 20px;
+    font-weight: bolder;
+    background-color: #ffecdf;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    background-color: #ffecdf;
+}
+
+
+.menu li {
+    padding: 0px 14px;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: #ffecdf;
+}
+
+.menu li a {
+    text-decoration: none;
+    background-color: #ffecdf;
+}
+
+
+/* DROPDOWN MENU */
+.services {
+    position: relative;
+}
+
+.dropdown {
+    background-color: #ffecdf;
+    padding: 1em 0;
+    position: absolute;
+    
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+}
+
+.dropdown li+li {
+    margin-top: 10px;
+}
+
+.dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+}
+
+.dropdown li:hover {
+    background-color: #ffecdf;
+}
+
+.services:hover .dropdown {
+    display: block;
+}
+
+/* CHECKBOX HACK */
+input[type=checkbox] {
+    display: none;
+}
+
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #ffecdf;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        background-color: #ffecdf;
+        transition: 0.3s ease;
+    }
+
+
+
+    .menu li+li {
+        margin-top: 12px;
+    }
+
+    input[type=checkbox]:checked~.menu {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .dropdown {
+        left: 50%;
+        top: 30px;
+        transform: translateX(35%);
+    }
+
+    .dropdown li:hover {
+        background-color: #ffecdf;
+    }
+}
+
+/* Logout Btn */
+
+.btn__logout {
+    padding: 2.5px;
+    width: 120px;
+    border-radius: 7px;
+    background-color: #ed1f68;
+    border: #fff;
+    color: #ffecdf;
+    font-weight: 600;
+    margin-top: -3px;
+}
+
+/* Section Heading */
+
+main {
+    background-color: #d89fd0;
+    display: flex;
+}
+
+.Right {
+    width: 50%;
+    display: inline-block;
+}
+
+.Left {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.heading__blogs {
+    font-family: 'Satisfy', cursive;
+    font-size: 5.5rem;
+    color: rgb(59, 53, 53);
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 0 0 0;
+}
+
+.heading_blogs_tagline {
+    font-family: 'Satisfy', cursive;
+    font-size: 3.5rem;
+    color: #000;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 0 0 0;
+}
+
+/* 
+
+/* MAIN */
+
+/* .container{
+    margin-left: 25%;
+    margin-right: 25%;
+} */
+
+.sectionCards {
+    padding-top: 5%;
+    /* margin-left: 10%; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.myButton {
+    color: #fff;
+    font-size: 18px;
+    line-height: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-color: rgb(237, 31, 104);
+    display: inline-block;
+}
+
+.myButton:hover {
+    background: #1C6EA4;
+}
+
+.myButton:active {
+    background: #144E75;
+}
+
+.cards {
+    display: inline-block;
+    margin-left: 2.5%;
+}
+
+/* FOOTER */
+.link {
+    text-decoration: none;
+    color: #f580a0;
+}
+
+.footer-link>a:hover {
+    color: #000;
+}
+
+.footer-heading {
+    color: #f580a0;
+}
+
+.text-black {
+    color: #000;
+}

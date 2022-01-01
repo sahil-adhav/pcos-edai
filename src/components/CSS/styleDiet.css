@@ -1,0 +1,100 @@
+#pricing-container {
+  width: 80%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.dietCard1{
+    background-color:#00E676;
+}
+
+.dietCard2{
+    background-color: #F06292;
+}
+
+
+/* generic styling to all pricing cards */
+
+.pricing-card {
+  background: #809fdbbb;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 7px;
+  font-family: sans-serif;
+  color: #fff;
+  max-width: 350px;
+  text-align: center;
+  line-height:1.1;
+  transition: 0.3s ease all;
+}
+
+.button {
+  color: #fff;
+  transition: 0.3s ease all;
+} 
+/* styling of price cards on hover */
+
+
+.pricing-card:hover{
+  transform: scale(1.05);
+  transition: 0.3s ease all;
+  box-shadow: 0px 0px 15px black;
+}
+
+/* unique price card styling bus/enterprise */
+.pricing-card.business {
+  background: #00E676;
+}
+
+.pricing-card.enterprise {
+  background: #F06292;
+  order: -1;
+}
+
+/* price card components */
+.pricing-card h3 {
+  font-weight: bold;
+  margin: 0   0  20px  0;
+  font-size: 25px;
+}
+
+.pricing-card p {
+  font-weight: bold;
+  margin-bottom: 10 px;
+}
+
+.pricing-card .price span{
+  font-size: 45px; 
+}
+
+.pricing-card .billed {
+  opacity: 0.5;
+  font-style: 13px;
+}
+
+.pricing-card .button {
+  background: #fff;
+  color: #475766;
+  text-decoration: none;
+  padding: 11px;
+  display: block;
+  border-radius: 20px;
+}
+
+/* Target the pricing card button. Give it black text colour. Increase scale by 5%. Have this transition over a 0.3s animation*/
+
+.button:hover{
+  transform: scale(1.05);
+  color: #212121;
+  transition: 0.3s ease all;
+  box-shadow: 0px 0px 15px black;
+}
+
+@media(max-width: 1100px){
+  .pricing-card.enterprise{
+    order: -1;
+  }
+}
+

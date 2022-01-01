@@ -1,31 +1,10 @@
 import React from 'react'
-// import styleBlogContent from './CSS/styleBlogContent.css'
+import styleBlogContent from './CSS/styleBlogContent.css'
 
 export default function Blogcontent() {
     return (
         <div>
-            <nav className="navbar">
-      
-      <div className="logo">
-        PCOS <br />
-        COMPANION
-      </div>
-      
-      <ul className="nav-links">
-        
-        <input type="checkbox" id="checkbox_toggle" />
-        <label for="checkbox_toggle" className="hamburger">&#9776;</label>
-        
-        <div className="menu">
-          <li><a href="/">HOME</a></li>
-          <li><a href="/about">ABOUT</a></li>
-          <li><a href="/blog">BLOG</a></li>
-          <li><a href="/diet">DIET</a></li>
-          <li><a href="/tracker">TRACKER</a></li>
-          <li><button className="btn__logout" type="submit">LOGOUT</button></li>
-        </div>
-      </ul>
-    </nav>
+            
     <div className="blogContainer">
       <div className="blog__container">
         <div className="genre__Date">
@@ -94,47 +73,7 @@ Bottom line treatments are just as varied as the symptoms, find what works best 
         </div>
       </div>
     </div>
-    <footer className="w-100 py-4 flex-shrink-0">
-        <div className="container py-4">
-            <div className="row gy-4 gx-5">
-                <div className="col-lg-4 col-md-6">
-                    <h5 className="h1 text-black">PCOS <br/> COMPANION</h5>
-                    <p className="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                    <p className="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a  className="link footer-heading" className="text-primary" href="#">Pcoscompanion.com</a></p>
-                </div>
-                <div className="col-lg-2 col-md-6">
-                    <h5 className="text-black mb-3">Quick links</h5>
-                    <ul className="foter-link list-unstyled text-muted">
-                        <li><a className="link" href="#">Home</a></li>
-                        <li><a className="link" href="#">About</a></li>
-                        <li><a className="link" href="#">Blogs</a></li>
-                        <li><a className="link" href="#">Diet</a></li>
-                        <li><a className="link" href="#">Tracker</a></li>
-                    </ul>
-                </div>
-                <div className="col-lg-2 col-md-6">
-                    <h5 className="text-black mb-3">Quick links</h5>
-                    <ul className="list-unstyled text-muted">
-                        <li><a className="link" href="#">Home</a></li>
-                        <li><a className="link" href="#">About</a></li>
-                        <li><a className="link" href="#">Blogs</a></li>
-                        <li><a className="link" href="#">Diet</a></li>
-                        <li><a className="link"  href="#">Tracker</a></li>
-                    </ul>
-                </div>
-                <div className="col-lg-4 col-md-6">
-                    <h5 className="text-black mb-3">Newsletter</h5>
-                    <p className="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                    <form action="#">
-                        <div className="input-group mb-3">
-                            <input className="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"/>
-                            <button className="btn btn-primary" id="button-addon2" type="button"><i className="fas fa-paper-plane"></i></button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </footer>
+    
         </div>
     )
 }

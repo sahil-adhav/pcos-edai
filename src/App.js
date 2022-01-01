@@ -13,6 +13,7 @@ import {
 } from 'react-router-dom';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Diet from './components/Diet';
 
 
 
@@ -28,6 +29,8 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
+        <Route path="/diet" element={<Diet />} />
+        <Route path="/blog/content" element={<Blogcontent />} />
         
         
 

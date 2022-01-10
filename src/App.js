@@ -14,6 +14,8 @@ import {
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Diet from './components/Diet';
+import NoteState from './context/notes/NoteState';
+import User from './components/User';
 
 
 
@@ -21,7 +23,7 @@ import Diet from './components/Diet';
 function App() {
   return (
     <div>
-    
+    <NoteState>
      <Router>
         <Navbar/>
        <Routes>
@@ -31,13 +33,14 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/diet" element={<Diet />} />
         <Route path="/blog/content" element={<Blogcontent />} />
+        <Route path="/user" element={<User/>} />
         
         
 
        </Routes>
        <Footer/>
      </Router>
-     
+     </NoteState>
     </div>
   );
 }

@@ -1,0 +1,36 @@
+.font-footer-heading{
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+
+.spanTag{
+    color: #ed1f68;
+}
+
+h1, h2, h3, h4, h5, h5, p {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    font-family: 'Inter', sans-serif;
+}
+
+a.youtube {
+    color: #ed1f68;
+  }
+  
+  a.facebook {
+    color: #ed1f68;
+  }
+  
+  a.twitter {
+    color: #ed1f68;
+  }
+  
+  a.instagram {
+    color: #ed1f68;
+  }
+
+.link{
+    color: #ed1f68;
+}

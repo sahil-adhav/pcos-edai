@@ -27,11 +27,17 @@
 }
 
 .heading{
-  font-family: Montserrat-black;
+  /* font-family: 'Inter', sans-serif; */
+  
   font-size: 3rem;
+  font-weight: bold;
   line-height: 1.5;
   color: rgb(0, 0, 0);
   
+}
+
+.title_heading{
+  font-family: 'Satisfy', cursive;
 }
 
 .container-fluid{
@@ -72,3 +78,74 @@
      background-color: rgb(254,149,164);
 }
 
+
+
+
+/*carosel style*/
+.answer{
+  font-size: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  padding: 0 140px;
+}
+
+.heading{
+  font-family: 'Inter', sans-serif;
+  padding: 0 140px;
+}
+
+.carousel{
+  padding: 30px;
+}
+
+
+/*Carsd Home*/
+.sectionCards {
+  padding-top: 5%;
+  /* margin-left: 10%; */
+  display: flex;
+  justify-content: center;
+}
+
+
+.myButton {
+  color: #fff;
+  font-size: 18px;
+  line-height: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-color: rgb(237, 31, 104);
+  display: inline-block;
+}
+
+.myButton:hover {
+  background: #1C6EA4;
+}
+
+.myButton:active {
+  background: #144E75;
+}
+
+.cards {
+  display: inline-block;
+  margin-left: 2.5%;
+}
+
+.cards_homePage{
+  /* margin: 20px 120px;
+  justify-content: center; */
+  
+  padding-top: 5%;
+    /* margin-left: 10%; */
+  display: flex;
+  justify-content: center;
+}
+
+.cards___image{
+  height: 200px;
+}

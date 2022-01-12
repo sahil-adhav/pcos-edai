@@ -36,6 +36,10 @@
 } 
 /* styling of price cards on hover */
 
+.Diet{
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
 
 .pricing-card:hover{
   transform: scale(1.05);

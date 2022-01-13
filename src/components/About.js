@@ -56,7 +56,7 @@ export default function About() {
         <div class="cards">
           <div class="card" style={{width:"18rem"}}>
             <img
-              src="https://media.istockphoto.com/photos/young-redhead-teenager-with-self-issues-looking-into-mirror-girl-with-picture-id903214374?b=1&k=20&m=903214374&s=170667a&w=0&h=gu0HNgiZ03kfzhBxJkBluR5ZpnFJvlKI9MQFjhFjw58="
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsunJdn1HXTx2Nco3El-J1CDHgDwZmIFZP6g&usqp=CAU"
               class="card-img-top" alt="..."/>
             <div class="card-body">
               <h5 class="card-title">Infertility</h5>
@@ -70,7 +70,7 @@ export default function About() {
         <div class="cards">
           <div class="card" style={{width:"18rem"}}>
             <img
-              src="https://media.istockphoto.com/photos/anxious-arabic-woman-feel-unhappy-thinking-at-home-picture-id1267716518?b=1&k=20&m=1267716518&s=170667a&w=0&h=uU5ZZVI3lTEB0Z4TzNtDnztPwiUdrCvbspkSix-vUn4=" alt="..."/>
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDZ89fwDyJax5_bNT5O7Wk1gydNdG6gCAEw&usqp=CAU" alt="..."/>
             <div class="card-body">
               <h5 class="card-title">Early and Recurrent Pregnancy Loss</h5>
               <p class="card-text">The reproductive issues with PCOS are manifold starting with anovulatory cycles leading to subfertility.
@@ -83,7 +83,7 @@ export default function About() {
         <div class="cards">
           <div class="card" style={{width:"18rem"}}>
             <img
-              src="https://images.unsplash.com/photo-1513866717996-6c19fd870937?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d29tYW4lMjB1bWJyZWxsYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9K1ZUAa4_9N9ik3F7O1Aqy5ESI7MQXLjBcA&usqp=CAU"
               class="card-img-top" alt="..."/>
             <div class="card-body">
               <h5 class="card-title">Gestational Diabetes</h5>
@@ -99,7 +99,7 @@ export default function About() {
         <div class="cards">
           <div class="card" style={{width:"18rem"}}>
             <img
-              src="https://media.istockphoto.com/photos/anxious-arabic-woman-feel-unhappy-thinking-at-home-picture-id1267716518?b=1&k=20&m=1267716518&s=170667a&w=0&h=uU5ZZVI3lTEB0Z4TzNtDnztPwiUdrCvbspkSix-vUn4=" alt="..."/>
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrUm6Ms0NVHjxesnSmve_xXuSFuHLqz1ps6Q&usqp=CAU" alt="..."/>
             <div class="card-body">
               <h5 class="card-title">Risk For Chronic Diabetes</h5>
               <p class="card-text">The earlier your PCOS is diagnosed and treated, the lower your risk of developing complications associated with PCOS.</p>
@@ -111,7 +111,7 @@ export default function About() {
         <div class="cards">
           <div class="card" style={{width:"18rem"}}>
             <img
-              src="https://media.istockphoto.com/photos/young-redhead-teenager-with-self-issues-looking-into-mirror-girl-with-picture-id903214374?b=1&k=20&m=903214374&s=170667a&w=0&h=gu0HNgiZ03kfzhBxJkBluR5ZpnFJvlKI9MQFjhFjw58="
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DoLfPDrc_qwW_z1XDn_Qy2hJA_EPNMKLKw&usqp=CAU"
               class="card-img-top" alt="..."/>
             <div class="card-body">
               <h5 class="card-title">Nutrition and PCOS</h5>
@@ -125,7 +125,7 @@ export default function About() {
         <div class="cards">
           <div class="card" style={{width:"18rem"}}>
             <img
-              src="https://images.unsplash.com/photo-1513866717996-6c19fd870937?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d29tYW4lMjB1bWJyZWxsYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLJggYfZSmJ3R2fNCrhvk_dDUedmelR672Lw&usqp=CAU"
               class="card-img-top" alt="..."/>
             <div class="card-body">
               <h5 class="card-title">System Management</h5>

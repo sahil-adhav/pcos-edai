@@ -1,0 +1,33 @@
+.btn-publish{
+    background-color: #ed1f68;
+    color: #fff;
+}
+
+/* .publish_text{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+} */
+
+.form_label{
+    font-family: 'Inter', sans-serif;
+}
+
+.AddBlog_heading{
+    font-size: 5rem;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+.form_input{
+    height: 150;
+    font-family: 'Inter', sans-serif;
+}
+
+.font_label{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+

@@ -1,12 +1,12 @@
 import React from "react";
 import styleFooter from "./CSS/styleFooter.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faYoutube,
-//   faFacebook,
-//   faTwitter,
-//   faInstagram,
-// } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
@@ -19,8 +19,7 @@ export default function Footer() {
                 <span className="spanTag">PCOS</span> <br /> COMPANION
               </h5>
               <p className="small text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt.
+                Seek the help you need.
               </p>
               <p className="small text-muted mb-0">
                 &copy; Copyrights. All rights reserved.{" "}
@@ -56,11 +55,11 @@ export default function Footer() {
                     Diet
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a className="link" href="/tracker">
                     Tracker
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a className="link" href="/tracker">
                     About Us
@@ -71,57 +70,48 @@ export default function Footer() {
             <div className="col-lg-2 col-md-6">
               <h5 className="text-black mb-3">Follow Us</h5>
               <div class="social-container">
-                <a
-                  href="https://www.youtube.com/"
-                  className="youtube social"
-                >
-                  {/* <FontAwesomeIcon icon={faYoutube} size="2x" /> */}
+                <a href="https://www.youtube.com/" className="youtube social">
+                  <FontAwesomeIcon icon={faYoutube} size="2x" />
                 </a>
-                <br/>
-                <a
-                  href="https://www.facebook.com/"
-                  className="facebook social"
-                >
-                  {/* <FontAwesomeIcon icon={faFacebook} size="2x" /> */}
+                <br />
+                <a href="https://www.facebook.com/" className="facebook social">
+                  <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
-                <br/>
-                <a
-                  href="https://twitter.com/"
-                  className="twitter social"
-                >
-                  {/* <FontAwesomeIcon icon={faTwitter} size="2x" /> */}
+                <br />
+                <a href="https://twitter.com/" className="twitter social">
+                  <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
-                <br/>
+                <br />
                 <a
                   href="https://www.instagram.com/"
                   className="instagram social"
                 >
-                  {/* <FontAwesomeIcon icon={faInstagram} size="2x" /> */}
+                  <FontAwesomeIcon icon={faInstagram} size="2x" />
                 </a>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <h5 className="text-black mb-3">Newsletter</h5>
               <p className="small text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt.
+              A newsletter curated just for you ! Happy PCOS
               </p>
               <form action="#">
                 <div className="input-group mb-3">
-                  <input
+                  {/* <input
                     className="form-control"
                     type="text"
                     placeholder="Recipient's username"
                     aria-label="Recipient's username"
                     aria-describedby="button-addon2"
-                  />
-                  <button
-                    className="btn btn-primary"
-                    id="button-addon2"
-                    type="button"
+                  /> */}
+                  <a
+                    href="pdf/Newsletter.pdf"
+                    target="_blank"
+                    class="myButton"
+                    download
                   >
-                    <i className="fas fa-paper-plane"></i>
-                  </button>
+                    Download Newsletter
+                  </a>
                 </div>
               </form>
             </div>

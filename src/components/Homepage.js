@@ -234,9 +234,7 @@ export default function Homepage() {
               <div class="card-body">
                 <h5 class="card-title">DIET</h5>
                 <p class="card-text">
-                  Polycystic Ovarian Syndrome (PCOS) is a common endocrine
-                  system disorder affecting about 12-18% of women in the
-                  reproductive age. content.
+                Learn how you can lose weight, gain energy, and improve your quality of life through dietary improvements. Small changes can make a big difference in living with PCOS.
                 </p>
                 <a href="/diet" class="myButton">
                   Read More
@@ -268,9 +266,9 @@ export default function Homepage() {
                 class="cards___image"
               />
               <div class="card-body">
-                <h5 class="card-title">TRACKER</h5>
+                <h5 class="card-title">ABOUT US</h5>
                 <p class="card-text">
-                Are you feeling confused about your symptoms and wondering if you have, or are at risk, for PCOS
+                ‘PCOS COMPANION’ has been created  to spread awareness about this lesser known condition and get more women diagnosed.
                 </p>
                 <a href="/tracker" class="myButton">
                   Read More

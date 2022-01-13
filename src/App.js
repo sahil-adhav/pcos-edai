@@ -5,6 +5,12 @@ import Homepage from './components/Homepage';
 import Login from './components/Login';
 import About from './components/About';
 
+import Chatbot from 'react-chatbot-kit'
+import 'react-chatbot-kit/build/main.css'
+import MessageParser from './components/bot/MessageParser';
+import ActionProvider from './components/bot/ActionProvider';
+import config from './components/bot/config';
+
 
 import {
   BrowserRouter as Router,
@@ -27,6 +33,7 @@ import About_nutrition from './components/About_nutrition';
 import About_Sm from './components/About_Sm'; 
 import Diet_veg from './components/Diet_veg';
 import Diet_nonveg from './components/Diet_nonveg';
+
 
 
 
@@ -63,6 +70,19 @@ function App() {
        <Footer/>
      </Router>
      </NoteState>
+     <div
+      style={{
+        position : 'fixed',
+        right : '25px',
+        bottom : '50px',
+        boxShadow : 'rgba(100,100,111,0.2) 0px 7px 29px 0px',
+      }}>
+      <Chatbot
+          config={config}
+          messageParser={MessageParser}
+          actionProvider={ActionProvider}
+      />
+     </div>
     </div>
   );
 }

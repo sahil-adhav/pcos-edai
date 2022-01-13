@@ -1,12 +1,12 @@
 import React from "react";
 import styleFooter from "./CSS/styleFooter.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faYoutube,
-  faFacebook,
-  faTwitter,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faYoutube,
+//   faFacebook,
+//   faTwitter,
+//   faInstagram,
+// } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
@@ -75,28 +75,28 @@ export default function Footer() {
                   href="https://www.youtube.com/"
                   className="youtube social"
                 >
-                  <FontAwesomeIcon icon={faYoutube} size="2x" />
+                  {/* <FontAwesomeIcon icon={faYoutube} size="2x" /> */}
                 </a>
                 <br/>
                 <a
                   href="https://www.facebook.com/"
                   className="facebook social"
                 >
-                  <FontAwesomeIcon icon={faFacebook} size="2x" />
+                  {/* <FontAwesomeIcon icon={faFacebook} size="2x" /> */}
                 </a>
                 <br/>
                 <a
                   href="https://twitter.com/"
                   className="twitter social"
                 >
-                  <FontAwesomeIcon icon={faTwitter} size="2x" />
+                  {/* <FontAwesomeIcon icon={faTwitter} size="2x" /> */}
                 </a>
                 <br/>
                 <a
                   href="https://www.instagram.com/"
                   className="instagram social"
                 >
-                  <FontAwesomeIcon icon={faInstagram} size="2x" />
+                  {/* <FontAwesomeIcon icon={faInstagram} size="2x" /> */}
                 </a>
               </div>
             </div>

@@ -20,7 +20,7 @@ export default function Navbar() {
           <li><a href="/about">ABOUT</a></li>
           <li><a href="/blog">BLOG</a></li>
           <li><a href="/diet">DIET</a></li>
-          <li><a href="/user">USER</a></li>
+          <li><a href="/user">ADD</a></li>
           <li><button className="btn__logout" type="submit">LOGOUT</button></li>
         </div>
       </ul>

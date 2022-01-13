@@ -30,7 +30,7 @@ const Notes = () => {
 
     return (
         <>
-            <AddNote />
+            {/* <AddNote /> */}
             <button ref={ref} type="button" className="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Launch demo modal
             </button>

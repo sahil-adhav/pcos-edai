@@ -1,0 +1,29 @@
+#overview{
+    /* width: 70%; */
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+}
+
+.heading_big{
+    font-family: 'Satisfy', cursive;
+    font-size: 5rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.heading_content{
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.content{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.img_overview{
+    width: 100%;
+}

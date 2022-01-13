@@ -18,7 +18,7 @@ const AddNote = () => {
     }
     return (
         <div className="container my-3">
-            <h2>Add a Note</h2>
+            <h2>Add a Blog</h2>
             <form className="my-3">
                 <div className="mb-3">
                     <label htmlFor="title" className="form-label">Title</label>
@@ -29,11 +29,11 @@ const AddNote = () => {
                     <input type="text" className="form-control" id="description" name="description" value={note.description} onChange={onChange} minLength={5} required />
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="tag" className="form-label">Author</label>
+                    <label htmlFor="tag" className="form-label">Image Url</label>
                     <input type="text" className="form-control" id="tag" name="tag" value={note.tag} onChange={onChange} minLength={5} required />
                 </div>
                
-                <button disabled={note.title.length<5 || note.description.length<5} type="submit" className="btn btn-primary" onClick={handleClick}>Add Note</button>
+                <button disabled={note.title.length<5 || note.description.length<5} type="submit" className="btn btn-primary" onClick={handleClick}>Publish</button>
             </form>
         </div>
     )

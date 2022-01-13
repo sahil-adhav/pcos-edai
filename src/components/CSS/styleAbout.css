@@ -234,6 +234,14 @@ main {
     justify-content: center;
 }
 
+.card-title{
+    font-family: 'Inter', sans-serif;
+}
+
+.card-text{
+    font-family: 'Inter', sans-serif;
+}
+
 
 .myButton {
     color: #fff;

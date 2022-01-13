@@ -1,0 +1,20 @@
+.pcos_logo{
+    height: 160px;
+    display: inline-block;
+    
+}
+
+.logo_name > p{
+    text-align: center;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.span_text{
+    columns:  #ed1f68;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}

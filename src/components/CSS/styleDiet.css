@@ -7,11 +7,11 @@
 }
 
 .dietCard1{
-    background-color:#00E676;
+    background-color:#CEE5D0;
 }
 
 .dietCard2{
-    background-color: #F06292;
+    background-color: #F38BA0;
 }
 
 
@@ -23,7 +23,8 @@
   padding: 15px;
   margin: 7px;
   font-family: sans-serif;
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
   max-width: 350px;
   text-align: center;
   line-height:1.1;
@@ -49,11 +50,11 @@
 
 /* unique price card styling bus/enterprise */
 .pricing-card.business {
-  background: #00E676;
+  background: #CEE5D0;
 }
 
 .pricing-card.enterprise {
-  background: #F06292;
+  background: #F38BA0;
   order: -1;
 }
 

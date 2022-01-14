@@ -22,7 +22,8 @@ const Signup = () => {
         
             // Save the auth token and redirect
             localStorage.setItem('token', json.authtoken); 
-            navigate("/");
+            localStorage.setItem('inside', true);
+            navigate("/blog");
 
         
     }

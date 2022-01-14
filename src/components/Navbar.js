@@ -1,8 +1,14 @@
 import React from "react";
 import pcos_logo from "./images/pcos_logo.png";
 import styleNavbar from "./CSS/styleNavbar.css";
+import { useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
+  const navigate = useNavigate();
+  const handleLogout = ()=>{
+    localStorage.removeItem('inside');
+    navigate('/');
+  }
   return (
     <div>
       <nav className="navbar">
@@ -39,16 +45,17 @@ export default function Navbar() {
               <a href="/diet">DIET</a>
             </li>
             <li>
-              <a href="/user">ADD</a>
+              <a href="/user">Become a contributor</a>
             </li>
+            
             <li>
-              <a href="/signup">Sign Up</a>
-            </li>
-            <li>
-              <a href="/login">Login</a>
-              {/* <button className="btn__logout" type="submit">
-                LOGOUT
-              </button> */}
+              {!localStorage.getItem('inside')?
+              <div>
+                <a href="/signup">Sign Up</a>
+                <a style={{marginLeft:"20px"}} href="/login">Login</a>
+              </div>
+              
+              :<button onClick={handleLogout} className="btn__logout" >LOGOUT</button>}
             </li>
           </div>
         </ul>

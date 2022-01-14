@@ -61,7 +61,7 @@ export default function Footer() {
                   </a>
                 </li> */}
                 <li>
-                  <a className="link" href="/tracker">
+                  <a className="link" href="/about_us">
                     About Us
                   </a>
                 </li>

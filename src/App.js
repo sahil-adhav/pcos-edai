@@ -10,8 +10,6 @@ import 'react-chatbot-kit/build/main.css'
 import MessageParser from './components/bot/MessageParser';
 import ActionProvider from './components/bot/ActionProvider';
 import config from './components/bot/config';
-
-
 import {
   BrowserRouter as Router,
   Routes,
@@ -33,6 +31,7 @@ import About_nutrition from './components/About_nutrition';
 import About_Sm from './components/About_Sm'; 
 import Diet_veg from './components/Diet_veg';
 import Diet_nonveg from './components/Diet_nonveg';
+import AboutUs from './components/AboutUs';
 import Signup from './components/Signup';
 
 
@@ -67,7 +66,8 @@ function App() {
         <Route path="/about_nutrition" element={<About_nutrition/>}/>      
         <Route path="/about_sm" element={<About_Sm/>}/>      
         <Route path="/diet_veg" element={<Diet_veg/>}/>      
-        <Route path="/diet_nonveg" element={<Diet_nonveg/>}/>      
+        <Route path="/diet_nonveg" element={<Diet_nonveg/>}/>  
+        <Route path="/about_us" element={<AboutUs/>}/>     
        </Routes>
        <Footer/>
      </Router>
@@ -79,10 +79,12 @@ function App() {
         bottom : '50px',
         boxShadow : 'rgba(100,100,111,0.2) 0px 7px 29px 0px',
       }}>
-      <Chatbot
+      {/* <Chatbot
           config={config}
           messageParser={MessageParser}
           actionProvider={ActionProvider}
+      /> 
+     </div>
       />
      </div> */}
     </div>

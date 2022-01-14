@@ -1,5 +1,6 @@
 
 
+
 #contactbtn{
   margin-left: 1550px;
 }
@@ -131,15 +132,20 @@
   background: #144E75;
 }
 
+.card-body{
+  /* background: #144E75; */
+}
+
 .cards {
   display: inline-block;
   margin-left: 2.5%;
+  background-color: #ffecdf !important;
+  /* background: #ed1f68 !important; */
 }
 
 .cards_homePage{
   /* margin: 20px 120px;
   justify-content: center; */
-  
   padding-top: 5%;
     /* margin-left: 10%; */
   display: flex;

@@ -42,9 +42,13 @@ export default function Navbar() {
               <a href="/user">ADD</a>
             </li>
             <li>
-              <button className="btn__logout" type="submit">
+              <a href="/signup">Sign Up</a>
+            </li>
+            <li>
+              <a href="/login">Login</a>
+              {/* <button className="btn__logout" type="submit">
                 LOGOUT
-              </button>
+              </button> */}
             </li>
           </div>
         </ul>

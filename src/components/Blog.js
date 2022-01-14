@@ -1,26 +1,23 @@
-import React from 'react'
+import React from "react";
 
-import styleBlog from './CSS/styleBlog.css'
-import Notes from './Notes'
-
-
-
+import styleBlog from "./CSS/styleBlog.css";
+import Notes from "./Notes";
 
 export default function Blog() {
-  
-    return (
-        <div>
-            
-    <header>
-      <h1 className="heading__blogs">Blogs</h1>
-      <h3 className="heading__blogs__tagline">Share and Read stories of others.</h3>
-    </header>
+  return (
+    <div>
+      <header>
+        <h1 className="heading__blogs">Blogs</h1>
+        <h3 className="heading__blogs__tagline">
+          Share and Read stories of others.
+        </h3>
+      </header>
 
-    <div className="container"><Notes/></div>      
+      <div className="container">
+        <Notes />
+      </div>
 
-
-
-    {/* <main>
+      {/* <main>
       <section className="Left">
         <img
           className="blog__img center"
@@ -90,9 +87,6 @@ export default function Blog() {
         </div>
       </section>
     </main> */}
-    
-  
-  
-        </div>
-    )
+    </div>
+  );
 }

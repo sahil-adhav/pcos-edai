@@ -48,24 +48,19 @@ export default function Navbar() {
               <a href="/user">Become a contributor</a>
             </li>
             
-            <li>
-<<<<<<< HEAD
+            {/* <li>
               <a href="/signup">SIGN UP</a>
-            </li>
+            </li> */}
             <li>
-              <a href="/login">LOGIN</a>
-              {/* <button className="btn__logout" type="submit">
-                LOGOUT
-              </button> */}
-=======
+              {/* <a href="/login">LOGIN</a> */}
+              
               {!localStorage.getItem('inside')?
               <div>
-                <a href="/signup">Sign Up</a>
-                <a style={{marginLeft:"20px"}} href="/login">Login</a>
+                <a href="/signup">SIGN UP</a>
+                <a style={{marginLeft:"20px"}} href="/login">LOGIN</a>
               </div>
               
               :<button onClick={handleLogout} className="btn__logout" >LOGOUT</button>}
->>>>>>> b6f6bc5e78b9ceffa4649daa6d307f60ce42c20d
             </li>
           </div>
         </ul>
@@ -73,3 +68,8 @@ export default function Navbar() {
     </div>
   );
 }
+
+
+{/* <button className="btn__logout" type="submit">
+                LOGOUT
+              </button> */}

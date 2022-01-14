@@ -19,8 +19,11 @@ const AddNote = () => {
     }
     return (
         <div className="container my-3">
+            <div className="heading-addNote">
+                
             <h2 className="AddBlog_heading">Add a Blog</h2>
-            <form className="my-3">
+            </div>
+            <form className="my-3 form-addNote">
                 <div className="mb-3">
                     <label htmlFor="title" className="form-label font_label">Title</label>
                     <input type="text" className="form-control form_input"  name="title" aria-describedby="emailHelp" value={note.title} onChange={onChange} minLength={5} required /> 

@@ -3,6 +3,10 @@
     font-weight: bolder;
 }
 
+.footer-margin{
+  margin-left: 150px;
+}
+
 .spanTag{
     color: #ed1f68;
 }
@@ -33,4 +37,8 @@ a.youtube {
 
 .link{
     color: #ed1f68;
+}
+
+.margin{
+  /* margin-left: 20px; */
 }

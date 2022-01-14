@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useEffect } from 'react'
 import styleDiet from "./CSS/styleDiet.css";
 import vegDiet from "./images/vegDiet.jpg";
 import nonvegDiet from "./images/nonvegDiet.jpg";
 import vegDiet1 from "./images/vegDiet1.jpg";
+import { useNavigate } from 'react-router-dom';
+
+
+
 export default function Diet() {
+  const navigate = useNavigate();
+    useEffect(() => {
+        
+        if(!localStorage.getItem('inside')){
+            navigate("/login");
+        }
+        
+        
+        // eslint-disable-next-line
+    }, [])
   return (
     <div>
       <div id="pricing-container">

@@ -33,6 +33,7 @@ import About_nutrition from './components/About_nutrition';
 import About_Sm from './components/About_Sm'; 
 import Diet_veg from './components/Diet_veg';
 import Diet_nonveg from './components/Diet_nonveg';
+import Signup from './components/Signup';
 
 
 
@@ -46,7 +47,8 @@ function App() {
         <Navbar/>
        <Routes>
         <Route index element={<Homepage/>} />
-        <Route path="login" element={<Login />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup/>} />
         <Route path="blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
         <Route path="/diet" element={<Diet />} />
@@ -70,7 +72,7 @@ function App() {
        <Footer/>
      </Router>
      </NoteState>
-     <div
+     {/* <div
       style={{
         position : 'fixed',
         right : '25px',
@@ -82,7 +84,7 @@ function App() {
           messageParser={MessageParser}
           actionProvider={ActionProvider}
       />
-     </div>
+     </div> */}
     </div>
   );
 }

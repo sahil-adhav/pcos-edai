@@ -48,11 +48,16 @@ export default function Navbar() {
               <a href="/user">Become a contributor</a>
             </li>
             
+            {/* <li>
+              <a href="/signup">SIGN UP</a>
+            </li> */}
             <li>
+              {/* <a href="/login">LOGIN</a> */}
+              
               {!localStorage.getItem('inside')?
               <div>
-                <a href="/signup">Sign Up</a>
-                <a style={{marginLeft:"20px"}} href="/login">Login</a>
+                <a href="/signup">SIGN UP</a>
+                <a style={{marginLeft:"20px"}} href="/login">LOGIN</a>
               </div>
               
               :<button onClick={handleLogout} className="btn__logout" >LOGOUT</button>}
@@ -63,3 +68,8 @@ export default function Navbar() {
     </div>
   );
 }
+
+
+{/* <button className="btn__logout" type="submit">
+                LOGOUT
+              </button> */}

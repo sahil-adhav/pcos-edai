@@ -1,6 +1,7 @@
 .btn-publish{
     background-color: #ed1f68;
     color: #fff;
+    font-family: 'Inter', sans-serif;
 }
 
 /* .publish_text{
@@ -10,12 +11,18 @@
     font-family: 'Inter', sans-serif;
 } */
 
+.form-addNote{
+    width : 70%;
+    margin-left: 50px;
+}
+
 .form_label{
     font-family: 'Inter', sans-serif;
 }
 
 .AddBlog_heading{
     font-size: 5rem;
+    margin-top: 60px;
     font-family: 'Satisfy', cursive;
     text-align: center;
 }

@@ -27,7 +27,10 @@ export default function Navbar() {
               <a href="/">HOME</a>
             </li>
             <li>
-              <a href="/about">ABOUT</a>
+              <a href="/about_us">ABOUT</a>
+            </li>
+            <li>
+              <a href="/about">ABOUT PCOS</a>
             </li>
             <li>
               <a href="/blog">BLOG</a>

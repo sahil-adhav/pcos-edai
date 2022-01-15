@@ -1,4 +1,4 @@
-import './App.css';
+
 import Blog from './components/Blog';
 import Blogcontent from './components/Blogcontent';
 import Homepage from './components/Homepage';
@@ -34,7 +34,7 @@ import About_Sm from './components/About_Sm';
 import Diet_veg from './components/Diet_veg';
 import Diet_nonveg from './components/Diet_nonveg';
 
-
+import './App.css';
 
 
 
@@ -77,6 +77,7 @@ function App() {
         bottom : '50px',
         boxShadow : 'rgba(100,100,111,0.2) 0px 7px 29px 0px',
       }}>
+        
       <Chatbot
           config={config}
           messageParser={MessageParser}

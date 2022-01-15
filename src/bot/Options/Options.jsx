@@ -16,7 +16,7 @@ const Options = (props) => {
     },
     { 
       text: "Explore the website", 
-      handler: props.actionProvider.handleSite, 
+      handler: props.actionProvider.handleexplore, 
       id: 3 
     },
   ];

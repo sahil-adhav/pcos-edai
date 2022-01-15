@@ -37,7 +37,7 @@ class ActionProvider {
 
   handleTest = () => {
     const message = this.createChatBotMessage(
-        "Testing",
+        "Coming soon!",
         {
           widget:"Test",
         });

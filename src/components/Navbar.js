@@ -1,8 +1,14 @@
 import React from "react";
 import pcos_logo from "./images/pcos_logo.png";
 import styleNavbar from "./CSS/styleNavbar.css";
+import { useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
+  const navigate = useNavigate();
+  const handleLogout = ()=>{
+    localStorage.removeItem('inside');
+    navigate('/');
+  }
   return (
     <div>
       <nav className="navbar">
@@ -27,7 +33,10 @@ export default function Navbar() {
               <a href="/">HOME</a>
             </li>
             <li>
-              <a href="/about">ABOUT</a>
+              <a href="/about_us">ABOUT</a>
+            </li>
+            <li>
+              <a href="/about">ABOUT PCOS</a>
             </li>
             <li>
               <a href="/blog">BLOG</a>
@@ -36,12 +45,22 @@ export default function Navbar() {
               <a href="/diet">DIET</a>
             </li>
             <li>
-              <a href="/user">ADD</a>
+              <a href="/user">Become a contributor</a>
             </li>
+            
+            {/* <li>
+              <a href="/signup">SIGN UP</a>
+            </li> */}
             <li>
-              <button className="btn__logout" type="submit">
-                LOGOUT
-              </button>
+              {/* <a href="/login">LOGIN</a> */}
+              
+              {!localStorage.getItem('inside')?
+              <div>
+                <a href="/signup">SIGN UP</a>
+                <a style={{marginLeft:"20px"}} href="/login">LOGIN</a>
+              </div>
+              
+              :<button onClick={handleLogout} className="btn__logout" >LOGOUT</button>}
             </li>
           </div>
         </ul>
@@ -49,3 +68,8 @@ export default function Navbar() {
     </div>
   );
 }
+
+
+{/* <button className="btn__logout" type="submit">
+                LOGOUT
+              </button> */}

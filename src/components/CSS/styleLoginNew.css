@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+}
+
+.left-login{
+    width: 50%;
+}
+
+.right-login{
+    width: 50%;
+    vertical-align: top;
+}
+
+.form-login{
+    margin-top: 80px;
+    width: 30rem;
+    margin-left: 50px;
+}
+
+.text{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+}
+
+.btn-color{
+    background-color: #ed1f68;
+}
+
+.text-color{
+    color: #fff;
+}
+
+.login-heading{
+    color: #ed1f68;
+    font-weight: bolder;
+}
+
+

@@ -12,15 +12,13 @@ export default function Footer() {
   return (
     <div>
       <footer className="w-100 py-4 flex-shrink-0">
-        <div className="container py-4">
+        <div className="container py-4 footer-margin">
           <div className="row gy-4 gx-5">
             <div className="col-lg-4 col-md-6">
               <h5 className="h1 text-black font-footer-heading">
                 <span className="spanTag">PCOS</span> <br /> COMPANION
               </h5>
-              <p className="small text-muted">
-                Seek the help you need.
-              </p>
+              <p className="small text-muted">Seek the help you need.</p>
               <p className="small text-muted mb-0">
                 &copy; Copyrights. All rights reserved.{" "}
                 <a
@@ -61,7 +59,7 @@ export default function Footer() {
                   </a>
                 </li> */}
                 <li>
-                  <a className="link" href="/tracker">
+                  <a className="link" href="/about_us">
                     About Us
                   </a>
                 </li>
@@ -90,10 +88,10 @@ export default function Footer() {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 ">
               <h5 className="text-black mb-3">Newsletter</h5>
               <p className="small text-muted">
-              A newsletter curated just for you ! Happy PCOS
+                A newsletter curated just for you ! Happy PCOS
               </p>
               <form action="#">
                 <div className="input-group mb-3">
@@ -115,6 +113,9 @@ export default function Footer() {
                 </div>
               </form>
             </div>
+            {/* <div className="logoImg">
+              <h1>SAHIL</h1>
+            </div> */}
           </div>
         </div>
       </footer>

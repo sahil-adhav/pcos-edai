@@ -1,0 +1,137 @@
+.heading_aboutUs{
+    font-family: 'Satisfy', cursive;
+    font-size: 5.5rem;
+    text-align: center;
+}
+
+.motivation{
+    display: flex;
+    justify-content: center;
+}
+
+.textHeading{
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Satisfy', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.imgMotivation{
+    display: inline-block;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 80px;
+    align-content: center;
+}
+
+.textMotivation{
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    margin: 100px;
+    vertical-align: top;
+    width: 50%;
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+.ourTeamHeading{
+    font-size: 4rem;
+    margin-bottom: 70px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+.ourTeam{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.cardContainer{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.cards-aboutus{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border: 2px;
+    background: #ed1f68 !important;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.cardImg{
+    width: 30%;
+    display: inline-block;
+    margin:  20px;
+    background: #ed1f68;
+}
+
+.cardText{
+    width: 50%;
+    vertical-align: top;
+    width: 50%;
+    margin:  20px;
+    background: #ed1f68;
+}
+
+.img_card{
+    height: 180px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.nameHeading{
+    font-family: 'Inter', sans-serif;
+    /* color: #ed1f68; */
+    color: #fff;
+    margin-top: 15px;
+    background: #ed1f68;
+}
+
+.aboutContent{
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    background: #ed1f68;
+    color: #fff;
+}
+
+.socialContainer{
+    display: flex;
+    background-color: #ed1f68 !important;
+    background: #ed1f68 !important;
+}
+
+.icon{
+    margin-right: 30px;
+    background-color: #ed1f68 !important;
+    justify-content: space-evenly;
+}
+
+a.icon{
+    color: #ed1f68 !important;
+    fill: #fff !important;
+}
+
+.testimonial{
+    margin-top: 140px;
+}
+
+.myButton-aboutUs{
+    color: #ed1f68;
+    background-color: #ffecdf;
+    padding: 8px;
+    font-weight: 600;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+
+}
+
+.vasihnavi{
+    margin-top: 10px;
+}
+
+.italics{
+    font-style: italic;
+}
